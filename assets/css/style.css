@@ -1,0 +1,66 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    overflow-x: hidden;
+}
+.image{
+    background-image: url("../images/bg-car.png");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.text{
+    position: absolute;
+    top:50%;
+    left:70%;
+    
+}
+.text1{
+    position: absolute;
+    top:50%;
+    left:85%;
+    
+}
+.hr{
+    width: 90%;
+}
+.card1{
+    position: absolute;
+    top: 70%;
+    width: 25%;
+    border: 2px solid white;
+    padding: 20px;
+    left:2%;
+    
+}
+
+@media (max-width:600px)
+ {
+    .text{
+        position: absolute;
+        top:50%;
+        left:30%;
+        
+    }
+    .text1{
+        position: absolute;
+        top:70%;
+        left:35%;
+        
+    }
+    .card1{
+        position: absolute;
+        top:170%;
+        height:510px;
+        width: 98%;
+        border: 2px solid white;
+    
+     }
+     .cars{
+        position: absolute;
+        top:170%;
+        left:3%;
+     }
+    
+    }
